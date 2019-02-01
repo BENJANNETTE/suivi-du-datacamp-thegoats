@@ -11,8 +11,8 @@ We will consider a simple model receiving as input the counts of words and the c
 We started by predicting with some classical algorithm listed on the roadmap above.
 
 ##### Submissions
-NDIAYE Mohamed: Random Forest Classifier
-ORTEGA Antoine: Bagging
-BLIASHINETS Viktoria: Logistic Regression
-Best Score: Logistic Regression
+NDIAYE Mohamed: Random Forest Classifier <br/>
+ORTEGA Antoine: Bagging <br/>
+BLIASHINETS Viktoria: Logistic Regression <br/>
+Best Score: Logistic Regression <br/>
 Wel will start optimising the obtained models in order to tune the hyperparameter and improve the log_loss (Chosen Metric for the Competation) (Due Date 08/02)
