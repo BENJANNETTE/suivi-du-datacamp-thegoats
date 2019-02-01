@@ -1,2 +1,2 @@
-# Datacamp
-Les points hebdomadaires se feront sur le readme
+# Roadmap
+![alt text](/datacamp_roadmap_v1.png)
