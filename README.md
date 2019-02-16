@@ -1,19 +1,27 @@
 # Datacamp - Personalized Medicine: Redefining Cancer Treatment
 ![alt text](/datacamp_roadmap_v1.png)
+La roadmap sera régulièrement mise à jour en fonction de l'avancée sur les tâches à effectuer. Les cases grisées correspondent aux tâches déjà effectuées.
+## Organisation
+### Outil de suivi: Trello </br>
+Pour faciliter le travail en groupe, nous allons utiliser l'outil de gestion de projet en ligne Trello. Les tâches à effectuer, les assignations et les deadlines seron fixés directement sur l'interface Trello.
+![alt text](/goat_trello.png)
 
-### Warm Up
-In this part we will take a first look at the datas by loading them inside a jupyter notebook. We will start by some basical Exploratory data Analysis
-#### O1 Feb 2018
-Cf Datacamp_roadmap_v1
-### Dive in
-#### 01 Feb 2018
-We will consider a simple model receiving as input the counts of words and the counts of characters in text fields (cf Notebook) to predict the classes.
-We started by predicting with some classical algorithm listed on the roadmap above.
-
-##### Submissions
-NDIAYE Mohamed: Random Forest Classifier <br/>
-ORTEGA Antoine: Bagging <br/>
-BLIASHINETS Viktoria: Logistic Regression <br/>
-Best Score: Logistic Regression <br/>
-Wel will start optimising the obtained models in order to tune the hyperparameter and improve the log_loss (Chosen Metric for the Competition) <br/>
-(Due Date 08/02)
+### Code </br>
+Le langage utilisé sera principalement python via des Notebooks organisés de la manière suivante:
+<ul>
+  <li>
+    Main: Il s'agit du notebook principal, il contient le corps du travail, les diffèrentes étapes, les motivations et les résultats. Ce sera à partir de ce notebook que vont être exécuté tous les scripts/notebooks annexes pertinents.
+  </li>
+  <li>
+    submission: Contient le script pour produire le .csv à soumettre sur Kaggle pour obtenir le score
+  </li>
+  <li>
+    dataviz_preliminary: Contient le code pour la première phase d'analyse descriptive
+  </li>
+  <li>
+    naive_wordcount: Contient le code pour la première phase de feature engineering (Décompte du nombre de mots et du nombres de charactères)
+  </li>
+  <li>
+    etc
+  </li>
+</ul>
