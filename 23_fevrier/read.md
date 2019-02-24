@@ -1,5 +1,5 @@
-Dans ce notebook nous avons:
+Dans ce notebook nous avons: 
 
-transformer "Gene" et "Variation" en vectors numeriques, ce que permets inclure ses features en ML modele
+transforme "Gene" et "Variation" en vecteurs numériques, ce que permettent d'inclure ses features en MLLE Modeledans le feature "Texte"
 
-*dans le feature "Text" nous avons supprime des signes de puncuations et des stop words (les mots plus courants), qui donnent pas l'information dans le text, mais connectent les mots et creent des phrases.
+supprimé des signes de puncuations et des stops words (les mots plus courants), qui ne donnent pas l'information dans le texte, mais connectent les mots et aident de créer les phrases.
